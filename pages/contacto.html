@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <title>Contactos</title>
+</head>
+
+<body>
+    <header>
+        <h2>CONTACTOS</h2>
+    </header>
+    <main>
+        <h2>Informacion Institucional</h2>
+        <P>¡Hola! Te damos la bienvenida a tu espacio de contacto y soporte del Sistema de Gestión Educativa. Queremos
+            que navegues y estudies con total tranquilidad. Por eso, antes de que nos envíes tu consulta, que este sistema esta creado para mejorar la comunicación educativa.
+        permitiendote sabar y conocer todos los detalles de tu recorrido educativo.  </P>
+
+        <div class="form-container">
+
+            <form action="#" method="POST">
+
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre Completo"
+                        required>
+                </div>
+
+                <div class="form-group">
+
+                    <input type="text" id="apellido" name="apellido" class="form-control"
+                        placeholder="Apellido Completo" required>
+                </div>
+
+                <div class="form-group">
+
+                    <input type="email" id="correo" name="correo" class="form-control" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="telefono">Teléfono de contacto <span class="required">*</span></label> -->
+                    <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Telefono"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje <span class="required">*</span></label>
+                    <textarea id="mensaje" name="mensaje" class="form-control" maxlength="500"
+                        placeholder="Escribe aquí detalladamente qué sucede..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">🚀 Enviar Consulta</button>
+
+            </form>
+    </main>
+    <hr>
+    <footer>
+<img src="../assets/img/logo whatsapp.png" alt="whatsApp">
+<img src="../assets/img/logo correo.png" alt="correo">
+    </footer>
+</body>
+
+</html>
