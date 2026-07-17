@@ -4,7 +4,6 @@
      color: #f3f1f1;
      padding: 20px;
  }
-
  .form-container {
      max-width: 500px;
      margin: 0 auto;
@@ -78,4 +77,66 @@
 
  .btn-submit:hover {
      background-color: #2b6cb0;
+ }
+
+
+ .footer-logo-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     box-shadow: none;
+ }
+
+ .logo-personalizado {
+     width: 50px;
+     height: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     margin-right: 15px;
+     margin-left: 10px;
+ }
+
+ .logo-container-2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     box-shadow: none;
+ }
+
+ .logo-personalizado-fa {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
+ }
+
+ .logo-personalizado-ins {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
+
+ }
+
+ .logo-personalizado-ti {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
  }
