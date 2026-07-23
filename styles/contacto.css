@@ -1,12 +1,35 @@
  body {
      font-family: arial, Poppins, sans-serif;
-     background-color: #4f5e75;
-     color: #f3f1f1;
+     background: #4f5e75;
+     color: #b9b5b5;
      padding: 20px;
  }
+
+ .navbar-expand-lg {
+     background-color: #e915a9;
+ }
+
+ .container-fluid {
+     display: flex;
+     align-items: center;
+     background-color: #9eb0c4;
+     padding: -2%;
+     border-radius: 5px;
+     color: #0a0a0a
+ }
+
+ .nav-link {
+     font-size: 24px;
+     color: #000501;
+     padding-bottom: 20px;
+     align-items: center;
+ }
+
+
  .form-container {
      max-width: 500px;
-     margin: 0 auto;
+     margin-right: auto;
+     column-gap: normal;
      background: #ffffff;
      padding: 30px;
      border-radius: 8px;
@@ -43,6 +66,7 @@
  }
 
  .form-control {
+     display: flex;
      width: 100%;
      padding: 10px;
      border: 1px solid #cbd5e0;
@@ -50,6 +74,7 @@
      font-size: 14px;
      box-sizing: border-box;
      transition: border-color 0.2s;
+     margin-left: auto;
  }
 
  .form-control:focus {
@@ -78,7 +103,18 @@
  .btn-submit:hover {
      background-color: #2b6cb0;
  }
-
+.columna-mapa {
+    background-color: #3182ce;
+    width: 100px;
+    height: 100px; /* O el alto que desees */
+    display: flex;
+    margin-left: auto;
+    padding-left: 0%;
+}
+.mapa-responsive-container {
+    position: relative;
+    z-index: 10;
+}
 
  .footer-logo-container {
      display: flex;
@@ -107,6 +143,7 @@
      box-shadow: none;
  }
 
+
  .logo-personalizado-fa {
      width: 50px;
      height: auto;
@@ -118,6 +155,11 @@
      margin-right: 50px;
  }
 
+ .logo-personalizado-fa:hover {
+     transform: translateY(-5px);
+ }
+
+
  .logo-personalizado-ins {
      width: 50px;
      height: auto;
@@ -127,7 +169,10 @@
      border: 1px solid #333;
      align-content: center;
      margin-right: 50px;
+ }
 
+ .logo-personalizado-ins:hover {
+     transform: translateY(-5px);
  }
 
  .logo-personalizado-ti {
@@ -139,4 +184,8 @@
      border: 1px solid #333;
      align-content: center;
      margin-right: 50px;
+ }
+
+ .logo-personalizado-ti:hover {
+     transform: translateY(-5px);
  }
