@@ -4,41 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/contacto.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
     <title>Contactos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/nosotros.css">
-</head>
+
 
 <body>
-    <header>        
+    <header>
         <h2>CONTACTOS</h2>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../pages/alumnos.html">Alumnos</a>
-        </li>        
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/carreras.html">Carreras</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-        </li>        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>        
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/alumnos.html">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/carreras.html">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
     </header>
     <main>
         <h2>Informacion Institucional</h2>
@@ -46,53 +45,53 @@
             que navegues y estudies con total tranquilidad. Por eso, antes de que nos envíes tu consulta, que este
             sistema esta creado para mejorar la comunicación educativa.
             permitiendote sabar y conocer todos los detalles de tu recorrido educativo. </P>
-            
-        
-                <div class="form-container">
-                    <h2>Escribenos</h2>
 
-                    <form action="#" method="POST">
 
-                        <div class="form-group">
-                            <input type="text" id="nombre" name="nombre" class="form-control"
-                                placeholder="Nombre Completo" required>
-                        </div>
+        <div class="form-container">
+            <h2>Escribenos</h2>
 
-                        <div class="form-group">
+            <form action="#" method="POST">
 
-                            <input type="text" id="apellido" name="apellido" class="form-control"
-                                placeholder="Apellido Completo" required>
-                        </div>
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre Completo"
+                        required>
+                </div>
 
-                        <div class="form-group">
+                <div class="form-group">
 
-                            <input type="email" id="correo" name="correo" class="form-control" placeholder="Email"
-                                required>
-                        </div>
+                    <input type="text" id="apellido" name="apellido" class="form-control"
+                        placeholder="Apellido Completo" required>
+                </div>
 
-                        <div class="form-group">
-                            <!-- <label for="telefono">Teléfono de contacto <span class="required">*</span></label> -->
-                            <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Telefono"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="mensaje">Mensaje <span class="required">*</span></label>
-                            <textarea id="mensaje" name="mensaje" class="form-control" maxlength="500"
-                                placeholder="Escribe aquí detalladamente qué sucede..." required></textarea>
-                        </div>
+                <div class="form-group">
 
-                        <button type="submit" class="btn-submit">Enviar Consulta</button>
+                    <input type="email" id="correo" name="correo" class="form-control" placeholder="Email" required>
+                </div>
 
-                    </form><hr>
-                    <div class="columna-mapa">
-                        <h2>Nuestra Ubicacion</h2>
-                        <div class="mapa-responsive-container">
-                            <iframe src="https://www.google.com/maps" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                    </div>
-                
+                <div class="form-group">
+                    <!-- <label for="telefono">Teléfono de contacto <span class="required">*</span></label> -->
+                    <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Telefono"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje <span class="required">*</span></label>
+                    <textarea id="mensaje" name="mensaje" class="form-control" maxlength="500"
+                        placeholder="Escribe aquí detalladamente qué sucede..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Consulta</button>
+
+            </form>
+            <hr>
+            <div class="columna-mapa">
+                <h2>Nuestra Ubicacion</h2>
+                <div class="mapa-responsive-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14033.406717179265!2d-65.7966159!3d-28.438813250000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1784765821635!5m2!1ses-419!2sar" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">  "style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    </iframe>
+                </div>
+            </div>
+
     </main>
     <hr>
 
