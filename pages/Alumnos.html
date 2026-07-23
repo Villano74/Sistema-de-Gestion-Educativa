@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumnos</title>
     <link rel="stylesheet" href="../styles/alumnos.css">
 </head>
-<body>
-    <header><h2>Lista de Alumnos</h2></header>
-    <main></main>
+
+<body class="fondo">
+    <header>
+        <H2 class="titulo">Listado de Alumnos S.G.E.</H2>
+    </header>
+    <main>
+        <div class="contenedor-tabla">
+            <table>
+                <thead>
+                    <!--encabezados de la tabla-->
+                    <tr>
+                        <th>Matrícula</th>
+                        <th>Nombre Completo</th>
+                        <th>Carrera</th>
+                        <th>Estado Academico</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <!--datos internos de la lista alumnos-->
+                <tbody>
+                    <tr>
+                        <td>#1024</td>
+                        <td>Ana Martínez</td>
+                        <td>Profesorado Biologia</td>
+                        <td><span class="estado activo">Activo</span></td>
+                        <td><button class="btn-editar">Ver Perfil</button></td>
+                    </tr>
+                    <tr>
+                        <td>#1025</td>
+                        <td>Carlos Pérez</td>
+                        <td>Profesorado Informatica</td>
+                        <td><span class="estado activo">Activo</span></td>
+                        <td><button class="btn-editar">Ver Perfil</button></td>
+                    </tr>
+                    <tr>
+                        <td>#1026</td>
+                        <td>Sofía Rodríguez</td>
+                        <td>Profesorado Historia</td>
+                        <td><span class="estado alerta">Riesgo</span></td>
+                        <td><button class="btn-editar">Ver Perfil</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="gestion-alumnos-bar">
+            <!-- Buscador con Filtros -->
+            <div class="buscador">
+                <div class="filtro">
+                    <select id="filtro-busqueda" class="input-control select-filtro">
+                        <option value="nombre">Buscar por Nombre</option>
+                        <option value="dni">Buscar por DNI</option>
+                        <option value="correo">Buscar por Correo</option>
+                    </select>
+                </div>
+
+                <div class="input-busqueda">
+                    <input type="text" id="input-buscar" class="input-control text-buscar"
+                        placeholder="Escribe para buscar alumno...">
+                    <button type="button" class="btn-buscar">
+                        Buscar
+                    </button>
+                </div>
+            </div>
+
+            <!-- Botón de Acción -->
+            <div class="acciones-modulo">
+                <button type="button" class="btn-nuevo-alumno">
+                    Nuevo Alumno
+                </button>
+            </div>
+
+        </div>
+
+    </main>
     <footer></footer>
 </body>
+
 </html>

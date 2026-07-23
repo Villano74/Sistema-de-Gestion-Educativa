@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/perfilalumn.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+
+            <!-- Perfil Principal -->
+            <div class="perfil-tarjeta">
+                <div class="perfil-encabezado">
+                    <div class="foto">foto</div>
+                    <h2>Alejandro Gómez</h2>
+                    <span class="estudiante-matric">Matricula: N° 20260942</span>
+                </div>
+                <div class="perfil-info">
+                    <h2>Datos Personales</h2>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <label>Correo Electrónico</label>
+                            <span>alejandro.gomez@email.com</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Teléfono</label>
+                            <span>+54 11 2345-6789</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Fecha de Nacimiento</label>
+                            <span>15 de Mayo, 2005</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Carrera / Grado</label>
+                            <span>Ingeniería en Sistemas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sección Académica -->
+            <div class="seccion-academica">
+                <h3>Datos Academicos</h3>
+                <table class="curso-tabla">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Asignatura</th>
+                            <th>Promedio Gral.</th>
+                            <th>Estado</th>
+                            <th>Notas Historial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INF-101</td>
+                            <td>Introducción a la Programación</td>
+                            <td>8.5</td>
+                            <td><span class="estado activo">Regular</span></td>
+                            <td>
+                                <div class="Contenedor">
+                                    <!-- Menú desplegable -->
+                                    <select id="selector-parcial" onchange="mostrarNota()">
+                                        <option value="8.5">Parcial 1</option>
+                                        <option value="7.0">Parcial 2</option>
+                                        <option value="9.2">Parcial 3</option>
+                                    </select>
+
+                                    <!-- Contenedor donde se cargará la nota -->
+                                    <div class="resultado">
+                                        <span id="nota-display" class="nota">-</span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MAT-202</td>
+                            <td>Cálculo Integral</td>
+                            <td>7.0</td>
+                            <td><span class="estado activo">Regular</span></td>
+                        </tr>
+                        <tr>
+                            <td>FIS-105</td>
+                            <td>Física General</td>
+                            <td>7.5</td>
+                            <td><span class="estado pendiente">Pendiente</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

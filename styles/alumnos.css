@@ -4,3 +4,189 @@ body {
      color: #f3f1f1;
      padding: 20px;
  }
+
+.titulo {
+    margin-top: 40px;
+    color: #ecedee;
+    text-align: center;
+}
+
+/* Contenedor para permitir scroll horizontal en móviles */
+.contenedor-tabla {
+    overflow-x: auto;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos generales de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ecebf0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezados */
+th {
+    background-color: #6b66b8;
+    color: white;
+    text-align: left;
+    padding: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Celdas */
+td {
+    padding: 12px 14px;
+    border-bottom: 2px solid #e5e5e9;
+    color: #051227;
+    font-size: 15px;
+}
+/* Filas alternas (Efecto Cebra) */
+/*tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Efecto hover al pasar el mouse */
+/*tbody tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s;
+}
+
+/* Etiquetas de estado */
+.estado {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.activo {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.alerta {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Botón de acción */
+.btn-editar {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-editar {
+    background-color: #c7d2fe;
+}
+
+.gestion-alumnos-bar {
+    max-width: 1250px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* Separa el buscador a la izquierda y el botón a la derecha */
+    align-items: center;
+    background-color: #df1742;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    gap: 10px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    /* Permite que el buscador use el espacio disponible */
+    max-width: 700px;
+}
+
+.input-busqueda {
+    display: flex;
+    width: 100%;
+}
+
+.input-control {
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+.select-filtro {
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    color: #495057;
+    font-weight: 500;
+}
+
+.text-buscar {
+    border-radius: 6px 0 0 6px;
+    /* Bordes redondeados solo a la izquierda */
+    border-right: none;
+    /* Elimina la línea divisoria con el botón */
+    width: 100%;
+}
+
+.input-control:focus {
+    border-color: #4a90e2;
+    /* Color azul al hacer clic */
+}
+
+.btn-buscar {
+    background-color: #4a90e2;
+    color: white;
+    border: 1px solid #afe617;
+    padding: 0 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0 6px 6px 0;
+    /* Bordes redondeados solo a la derecha */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-buscar:hover {
+    background-color: #357abd;
+}
+
+.btn-nuevo-alumno {
+    background-color: #2ecc71;
+    /* Color verde de éxito o creación */
+    color: white;
+    border: none;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    /* Evita que el texto del botón se rompa en dos líneas */
+    box-shadow: 0 2px 6px rgba(46, 204, 113, 0.2);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-nuevo-alumno:hover {
+    background-color: #27ae60;
+}
+
+.btn-nuevo-alumno:active {
+    transform: scale(0.98);
+    /* Pequeño efecto de hundimiento al hacer clic */
+}
