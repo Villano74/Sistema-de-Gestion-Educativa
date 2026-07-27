@@ -1,4 +1,4 @@
- body {
+ .fondo {
      font-family: arial, Poppins, sans-serif;
      background: #4f5e75;
      color: #b9b5b5;
@@ -8,113 +8,22 @@
  .navbar-expand-lg {
      background-color: #e915a9;
  }
-
- .container-fluid {
-     display: flex;
-     align-items: center;
-     background-color: #9eb0c4;
-     padding: -2%;
-     border-radius: 5px;
-     color: #0a0a0a
- }
-
- .nav-link {
-     font-size: 24px;
-     color: #000501;
-     padding-bottom: 20px;
-     align-items: center;
- }
-
-
- .form-container {
-     max-width: 500px;
-     margin-right: auto;
-     column-gap: normal;
-     background: #ffffff;
-     padding: 30px;
-     border-radius: 8px;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
-
- .form-container h2 {
-     margin-top: 0;
-     color: #1a365d;
-     font-size: 24px;
-     border-bottom: 2px solid #e2e8f0;
-     padding-bottom: 10px;
- }
-
- .form-container p {
-     font-size: 14px;
-     color: #4a5568;
-     margin-bottom: 20px;
- }
-
- .form-group {
-     margin-bottom: 15px;
- }
-
- .form-group label {
-     display: block;
-     margin-bottom: 5px;
-     font-weight: 600;
-     font-size: 14px;
- }
-
- .form-group label .required {
-     color: #e53e3e;
- }
-
- .form-control {
-     display: flex;
-     width: 100%;
-     padding: 10px;
-     border: 1px solid #cbd5e0;
-     border-radius: 5px;
-     font-size: 14px;
-     box-sizing: border-box;
-     transition: border-color 0.2s;
-     margin-left: auto;
- }
-
- .form-control:focus {
-     outline: none;
-     border-color: #3182ce;
- }
-
- textarea.form-control {
-     resize: vertical;
-     height: 120px;
- }
-
- .btn-submit {
-     background-color: #3182ce;
-     color: white;
-     border: none;
-     padding: 12px 20px;
-     font-size: 16px;
-     font-weight: bold;
-     border-radius: 5px;
-     cursor: pointer;
-     width: 100%;
-     transition: background-color 0.2s;
- }
-
- .btn-submit:hover {
-     background-color: #2b6cb0;
- }
-.columna-mapa {
-    background-color: #3182ce;
-    width: 100px;
-    height: 100px; /* O el alto que desees */
-    display: flex;
-    margin-left: auto;
-    padding-left: 0%;
+.texto {
+    font-family: Arial, poppins, sans-serif;
+    color:#f3f4f7;
+    text-align: center;
+    padding: 2%;
 }
-.mapa-responsive-container {
-    position: relative;
-    z-index: 10;
+.text-historia{
+    color:#f7f2f5;
+    font-family: Arial, Poppins, sans-serif;
+
 }
+.hr {
+    border-width: 10px;
+    border-color: #bb6d40;
+}
+
 
  .footer-logo-container {
      display: flex;

@@ -190,3 +190,80 @@ td {
     transform: scale(0.98);
     /* Pequeño efecto de hundimiento al hacer clic */
 }
+.hr {
+    border-width: 3px;
+    border-color: #bb6d40;
+}
+.footer-logo-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     box-shadow: none;
+ }
+
+ .logo-personalizado {
+     width: 50px;
+     height: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     margin-right: 15px;
+     margin-left: 10px;
+ }
+
+ .logo-container-2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     box-shadow: none;
+ }
+
+
+ .logo-personalizado-fa {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
+ }
+
+ .logo-personalizado-fa:hover {
+     transform: translateY(-5px);
+ }
+
+
+ .logo-personalizado-ins {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
+ }
+
+ .logo-personalizado-ins:hover {
+     transform: translateY(-5px);
+ }
+
+ .logo-personalizado-ti {
+     width: 50px;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 1px solid #333;
+     align-content: center;
+     margin-right: 50px;
+ }
+
+ .logo-personalizado-ti:hover {
+     transform: translateY(-5px);
+ }
