@@ -6,11 +6,15 @@
     <title>Sistema de Gestion Educativa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/nosotros.css">     
+    <link rel="stylesheet" href="styles/nosotros.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body class="body">
     </nav>
     <header> 
+        <img src="assets/img/fondo.jpeg" alt="Logo Sistema de Gestion Educativa" class="logo-pagina">
          <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -21,8 +25,202 @@
         
     </header>
     <main>
+        <section class="banner-institucional d-none d-md-block">
+            <h1>Sistema de Gestion Educativa</h1>
+            <p>Plataforma integral para la administracion academica y el seguimiento educativo</p>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Estadisticas Generales</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">A</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Alumnos</span>
+                        <span class="stat-value">1.248</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">C</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Carreras</span>
+                        <span class="stat-value">12</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">I</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Inscripciones Activas</span>
+                        <span class="stat-value">356</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">P</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Promedio General</span>
+                        <span class="stat-value">8.4</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Ultimas Evaluaciones Cargadas</h2>
+            <div class="evaluaciones-grid">
+                <div class="evaluacion-item">
+                    <div class="evaluacion-info">
+                        <span class="evaluacion-materia">Matematica I</span>
+                        <span class="evaluacion-alumno">Lopez, Maria - 2do A</span>
+                    </div>
+                    <span class="evaluacion-nota aprobado">9</span>
+                    <span class="evaluacion-fecha">15/07/2026</span>
+                </div>
+                <div class="evaluacion-item">
+                    <div class="evaluacion-info">
+                        <span class="evaluacion-materia">Lengua y Literatura</span>
+                        <span class="evaluacion-alumno">Garcia, Juan - 1ro B</span>
+                    </div>
+                    <span class="evaluacion-nota aprobado">8</span>
+                    <span class="evaluacion-fecha">14/07/2026</span>
+                </div>
+                <div class="evaluacion-item">
+                    <div class="evaluacion-info">
+                        <span class="evaluacion-materia">Historia</span>
+                        <span class="evaluacion-alumno">Perez, Ana - 3ro A</span>
+                    </div>
+                    <span class="evaluacion-nota aprobado">10</span>
+                    <span class="evaluacion-fecha">14/07/2026</span>
+                </div>
+                <div class="evaluacion-item">
+                    <div class="evaluacion-info">
+                        <span class="evaluacion-materia">Fisica</span>
+                        <span class="evaluacion-alumno">Rodriguez, Carlos - 2do B</span>
+                    </div>
+                    <span class="evaluacion-nota desaprobado">4</span>
+                    <span class="evaluacion-fecha">13/07/2026</span>
+                </div>
+                <div class="evaluacion-item">
+                    <div class="evaluacion-info">
+                        <span class="evaluacion-materia">Ingles</span>
+                        <span class="evaluacion-alumno">Fernandez, Lucia - 1ro A</span>
+                    </div>
+                    <span class="evaluacion-nota aprobado">7</span>
+                    <span class="evaluacion-fecha">12/07/2026</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Acciones Rapidas</h2>
+            <div class="acciones-grid">
+                <a href="pages/Alumnos.html" class="accion-btn">Cargar Nota</a>
+                <a href="pages/Alumnos.html" class="accion-btn">Nuevo Alumno</a>
+                <a href="pages/carreras.html" class="accion-btn">Ver Reportes</a>
+                <a href="pages/contacto.html" class="accion-btn">Inscribir</a>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Noticias Institucionales</h2>
+            <div class="noticias-grid">
+                <div class="noticia-card">
+                    <span class="noticia-fecha">18 de julio de 2026</span>
+                    <h3 class="noticia-titulo">Inicio del Segundo Cuatrimestre</h3>
+                    <p class="noticia-resumen">Las actividades academicas del segundo cuatrimestre comenzaran el proximo lunes. Se publicaran los horarios actualizados.</p>
+                </div>
+                <div class="noticia-card">
+                    <span class="noticia-fecha">15 de julio de 2026</span>
+                    <h3 class="noticia-titulo">Feria de Ciencias 2026</h3>
+                    <p class="noticia-resumen">Se encuentra abierta la inscripcion para participar de la Feria de Ciencias anual. Los proyectos podran presentarse hasta el 30 de julio.</p>
+                </div>
+                <div class="noticia-card">
+                    <span class="noticia-fecha">10 de julio de 2026</span>
+                    <h3 class="noticia-titulo">Reunion de Padres</h3>
+                    <p class="noticia-resumen">Se convoca a las familias a la reunion informativa sobre el rendimiento academico y los lineamientos del nuevo periodo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Calendario Academico</h2>
+            <table class="calendario-tabla">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Evento</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>21/07/2026</td>
+                        <td>Inicio del segundo cuatrimestre</td>
+                        <td>Academico</td>
+                    </tr>
+                    <tr>
+                        <td>05/08/2026</td>
+                        <td>Primer parcial - Todas las carreras</td>
+                        <td>Evaluacion</td>
+                    </tr>
+                    <tr>
+                        <td>15/08/2026</td>
+                        <td>Feriado - Dia no laborable</td>
+                        <td>Institucional</td>
+                    </tr>
+                    <tr>
+                        <td>02/09/2026</td>
+                        <td>Feria de Ciencias Institucional</td>
+                        <td>Evento</td>
+                    </tr>
+                    <tr>
+                        <td>20/09/2026</td>
+                        <td>Segundo parcial - Todas las carreras</td>
+                        <td>Evaluacion</td>
+                    </tr>
+                    <tr>
+                        <td>30/09/2026</td>
+                        <td>Cierre del primer trimestre</td>
+                        <td>Academico</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
-    <footer>
+    <footer class="footer-institucional">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Informacion Institucional</h3>
+                <p>Sistema de Gestion Educativa</p>
+                <p>Institucion dedicada a la formacion academica y el seguimiento integral de cada alumno.</p>
+                <p>Direccion: cordoba 1100, San Miguel De Tucuman </p>
+            </div>
+            <div class="footer-col">
+                <h3>Redes Sociales</h3>
+                <div class="footer-redes">
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="assets/img/facebook logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/logo instagram.jfif" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/" target="_blank"><img src="assets/img/logo tik tok.jfif" alt="Tik Tok"></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Informacion de Contacto</h3>
+                <div class="footer-contacto-item">
+                    <img src="assets/img/logo whatsapp.png" alt="WhatsApp">
+                    <span>WhatsApp 381-131314</span>
+                </div>
+                <div class="footer-contacto-item">
+                    <img src="assets/img/logo correo.png" alt="Correo">
+                    <span>info@sge.como.ar</span>
+                </div>
+                <div class="footer-contacto-item">
+                    <img src="assets/img/logo ubicacion.jfif" alt="Ubicacion">
+                    <span>AV.roca 1200, San Miguel De Tucuman </span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            &copy; 2026 Sistema de Gestion Educativa. Todos los derechos reservados.
+        </div>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
