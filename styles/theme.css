@@ -1,0 +1,18 @@
+:root {
+    --font-family-base: Arial, 'Poppins', sans-serif;
+    --font-size-base: 16px;
+
+    --color-primary: #3182ce;
+    --color-primary-hover: #2b6cb0;
+    --color-navy: #1a365d;
+    --color-blue-dark: #2b6cb0;
+    --color-blue-muted: #4a5568;
+    --color-blue-overlay: rgba(27, 54, 93, 0.75);
+
+    --color-white: #ffffff;
+    --color-light: #f3f1f1;
+    --color-border: #e2e8f0;
+    --color-bg-muted: #cbd5e0;
+
+    --color-error: #e53e3e;
+}
