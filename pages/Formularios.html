@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluaciones</title>
+    <link rel="stylesheet" href="/styles/Formulario.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Registro de Evaluaciones</h1>
+
+      <section class="formulario">
+        <h2>Cargar Evaluación</h2>
+
+        <form>
+          <div class="grupo">
+            <label>Carrera</label>
+            <select>
+              <option>Seleccionar...</option>
+              <option>Analista de Sistemas</option>
+              <option>Programación</option>
+              <option>Diseño Web</option>
+            </select>
+          </div>
+
+          <div class="grupo">
+            <label>Alumno</label>
+            <select>
+              <option>Seleccionar...</option>
+              <option>Juan Pérez</option>
+              <option>María López</option>
+              <option>Lucas Gómez</option>
+            </select>
+          </div>
+
+          <div class="grupo">
+            <label>Materia</label>
+            <select>
+              <option>Seleccionar...</option>
+              <option>Programación I</option>
+              <option>Base de Datos</option>
+              <option>Diseño Web</option>
+            </select>
+          </div>
+
+          <div class="grupo">
+            <label>Nota obtenida</label>
+            <input type="number" min="1" max="10" placeholder="Ingrese nota" />
+          </div>
+
+          <div class="grupo">
+            <label>Estado</label>
+            <div class="estado aprobado">✔ Aprobado</div>
+          </div>
+
+          <button type="submit">Guardar Evaluación</button>
+        </form>
+      </section>
+
+      <section class="historial">
+        <h2>Historial de Evaluaciones</h2>
+
+        <div class="filtros">
+          <select>
+            <option>Todas las carreras</option>
+            <option>Analista de Sistemas</option>
+            <option>Programación</option>
+          </select>
+
+          <select>
+            <option>Todas las materias</option>
+            <option>Programación I</option>
+            <option>Base de Datos</option>
+          </select>
+
+          <select>
+            <option>Todos los estados</option>
+            <option>Aprobado</option>
+            <option>Desaprobado</option>
+          </select>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Carrera</th>
+              <th>Alumno</th>
+              <th>Materia</th>
+              <th>Nota</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Programación</td>
+              <td>Juan Pérez</td>
+              <td>Programación I</td>
+              <td>8</td>
+              <td><span class="badge aprobado">Aprobado</span></td>
+            </tr>
+
+            <tr>
+              <td>Analista</td>
+              <td>María López</td>
+              <td>Base de Datos</td>
+              <td>5</td>
+              <td><span class="badge desaprobado">Desaprobado</span></td>
+            </tr>
+
+            <tr>
+              <td>Diseño Web</td>
+              <td>Lucas Gómez</td>
+              <td>HTML y CSS</td>
+              <td>10</td>
+              <td><span class="badge aprobado">Aprobado</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
