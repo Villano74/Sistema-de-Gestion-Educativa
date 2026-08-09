@@ -1,29 +1,40 @@
  .fondo {
      font-family: arial, Poppins, sans-serif;
-     background: #4f5e75;
-     color: #b9b5b5;
+     background: #f0f1f3;
+     color: #0c0101;
      padding: 20px;
  }
+ .formulario-flotante {
+  background-color: #f3f4f7; /* Fondo del formulario */
+  padding: 20px;
+  border-radius: 12px; /* Esquinas suaves */
+  
+  /* El truco del borde flotante: */
+  border: 1px solid rgba(0, 0, 0, 0.05); /* Borde casi invisible */
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),   /* Sombra suave cercana */
+    0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Sombra difuminada lejana */
+  
+  width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
 
  .navbar-expand-lg {
-     background-color: #e915a9;
+     background-color: #8b888b;
  }
 .texto {
     font-family: Arial, poppins, sans-serif;
-    color:#f3f4f7;
+    color:#f7f3f5;
+    background-color: #2b6cb0;
     text-align: center;
-    padding: 2%;
+    padding: 5px;
+    margin-top: 20px;
 }
 .text-historia{
-    color:#f7f2f5;
+    color:#0e0008;
     font-family: Arial, Poppins, sans-serif;
 
 }
-.hr {
-    border-width: 10px;
-    border-color: #bb6d40;
-}
-
 
  .footer-logo-container {
      display: flex;
