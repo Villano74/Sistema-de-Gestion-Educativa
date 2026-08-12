@@ -1,13 +1,13 @@
 body {
      font-family: arial, Poppins, sans-serif;
-     background-color: #275dad;
+     /*background-color: #5172af;*/
      color: #f3f1f1;
      padding: 20px;
  }
 
 .titulo {
     margin-top: 40px;
-    color: #ecedee;
+    color: #00060c;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ table {
 
 /* Encabezados */
 th {
-    background-color: #6b66b8;
+    background-color: #517991;
     color: white;
     text-align: left;
     padding: 14px;
@@ -97,7 +97,7 @@ td {
     justify-content: space-between;
     /* Separa el buscador a la izquierda y el botón a la derecha */
     align-items: center;
-    background-color: #df1742;
+    background-color: #517991;
     padding: 10px 15px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -167,9 +167,9 @@ td {
 }
 
 .btn-nuevo-alumno {
-    background-color: #2ecc71;
+    background-color: #fafbfc;
     /* Color verde de éxito o creación */
-    color: white;
+    color: rgb(245, 241, 241);
     border: none;
     padding: 11px 10px;
     font-size: 14px;
@@ -183,7 +183,7 @@ td {
 }
 
 .btn-nuevo-alumno:hover {
-    background-color: #27ae60;
+    background-color: #26bd7e;
 }
 
 .btn-nuevo-alumno:active {
@@ -202,7 +202,7 @@ td {
      box-shadow: none;
  }
 
- .logo-personalizado {
+ /*.logo-personalizado {
      width: 50px;
      height: auto;
      margin-top: 20px;
@@ -266,4 +266,4 @@ td {
 
  .logo-personalizado-ti:hover {
      transform: translateY(-5px);
- }
+ }*/
