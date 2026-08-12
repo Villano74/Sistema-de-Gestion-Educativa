@@ -1,6 +1,6 @@
  * {
      font-family: arial, Poppins, sans-serif;
-     background: #f0f1f3;
+     /*background: #f0f1f3;*/
      color: #0c0101;
  }
  .formulario-flotante {
@@ -8,7 +8,7 @@
   padding: 20px;
   border-radius: 12px; /* Esquinas suaves */
   
-  /* El truco del borde flotante: */
+  /* borde flotante: */
   border: 1px solid rgba(0, 0, 0, 0.05); /* Borde casi invisible */
   box-shadow: 
     0 4px 6px -1px rgba(0, 0, 0, 0.1),   /* Sombra suave cercana */
@@ -18,9 +18,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
 }
 
- .navbar-expand-lg {
+ /*.navbar-expand-lg {
      background-color: #8b888b;
- }
+ }*/
+
 .texto {
     font-family: Arial, poppins, sans-serif;
     color:#f7f3f5;
