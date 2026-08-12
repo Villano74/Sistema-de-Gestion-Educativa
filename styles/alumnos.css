@@ -1,8 +1,8 @@
-body {
+* {
      font-family: arial, Poppins, sans-serif;
      /*background-color: #5172af;*/
      color: #f3f1f1;
-     padding: 20px;
+
  }
 
 .titulo {
