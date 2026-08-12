@@ -18,7 +18,9 @@
   width: 500px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
 }
-
+ .navbar-expand-lg {
+     background-color: #8b888b;
+ }
 
 .texto {
     font-family: Arial, poppins, sans-serif;
