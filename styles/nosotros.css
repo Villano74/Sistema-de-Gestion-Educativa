@@ -1,0 +1,38 @@
+*{
+    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }     
+
+    .cardFernando, .cardJorge, .cardSantiago {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+.cardDante, .cardJorge, .cardSantiago {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .cardFernando:hover, .cardJorge:hover, .cardSantiago:hover {
+      transform: translateX(10px);
+    }
+.cardDante:hover, .cardJorge:hover, .cardSantiago:hover {
+      transform: translateX(10px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }

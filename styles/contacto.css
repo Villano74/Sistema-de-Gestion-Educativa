@@ -1,8 +1,7 @@
- .fondo {
+ * {
      font-family: arial, Poppins, sans-serif;
      background: #f0f1f3;
      color: #0c0101;
-     padding: 20px;
  }
  .formulario-flotante {
   background-color: #f3f4f7; /* Fondo del formulario */
