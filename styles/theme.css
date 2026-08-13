@@ -16,3 +16,16 @@
 
     --color-error: #e53e3e;
 }
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    border-radius: 6px;
+    padding: 2px;
+    background: #fff;
+}
+
+.navbar-login {
+    white-space: nowrap;
+    font-weight: 600;
+}
