@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Alinea el checkbox a la izquierda y el enlace a la derecha */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Ajusta el diseño del checkbox interno */
+.remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 0; /* Quita el margen inferior heredado */
+}
+
+.remember-me input {
+    width: auto;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+/* Estilo para los enlaces del formulario */
+.forgot-pass, .register-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.forgot-pass:hover, .register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Centra el texto de registro al final de la tarjeta */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}

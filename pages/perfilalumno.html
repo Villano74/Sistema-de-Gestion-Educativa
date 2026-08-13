@@ -4,16 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="../styles/perfilalumn.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/theme.css">
     <title>Perfil Alumno</title>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/fondo.jpeg" alt="Logo SGE" class="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/alumnos.html">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/carreras.html">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aula Virtual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Evaluaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                    <a href="#" class="btn btn-light ms-2 navbar-login">Iniciar Sesión</a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container">
 
@@ -87,12 +132,38 @@
                             <td>Cálculo Integral</td>
                             <td>7.0</td>
                             <td><span class="estado activo">Regular</span></td>
+                            <td><div class="Contenedor">
+                                    <!-- Menú desplegable -->
+                                    <select id="selector-parcial" onchange="mostrarNota()">
+                                        <option value="8.5">Parcial 1</option>
+                                        <option value="7.0">Parcial 2</option>
+                                        <option value="9.2">Parcial 3</option>
+                                    </select>
+
+                                    <!-- Contenedor donde se cargará la nota -->
+                                    <div class="resultado">
+                                        <span id="nota-display" class="nota">-</span>
+                                    </div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>FIS-105</td>
                             <td>Física General</td>
                             <td>7.5</td>
                             <td><span class="estado pendiente">Pendiente</span></td>
+                            <td><div class="Contenedor">
+                                    <!-- Menú desplegable -->
+                                    <select id="selector-parcial" onchange="mostrarNota()">
+                                        <option value="8.5">Parcial 1</option>
+                                        <option value="7.0">Parcial 2</option>
+                                        <option value="9.2">Parcial 3</option>
+                                    </select>
+
+                                    <!-- Contenedor donde se cargará la nota -->
+                                    <div class="resultado">
+                                        <span id="nota-display" class="nota">-</span>
+                                    </div>
+                                </div></td>
                         </tr>
                     </tbody>
                 </table>
@@ -140,4 +211,5 @@
         </div>
     </footer>
 </body>
+
 </html>
