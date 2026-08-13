@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gestion Educativa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/theme.css">   
+    <link rel="stylesheet" href="styles/theme.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel ="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="stylesheet" href="./styles/theme.css">
-    
 </head>
-<body class="body">    
-    <header>              
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./pages/alumnos.html">Alumnos</a>
-        </li>        
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/carreras.html">Carreras</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-        </li>        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>        
+
+<body class="body">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/img/fondo.jpeg" alt="Logo SGE" class="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/alumnos.html">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/carreras.html">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aula Virtual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Evaluaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                    <a href="#" class="btn btn-light ms-2 navbar-login">Iniciar Sesión</a>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="banner-institucional d-none d-md-block">
@@ -142,17 +161,20 @@
                 <div class="noticia-card">
                     <span class="noticia-fecha">18 de julio de 2026</span>
                     <h3 class="noticia-titulo">Inicio del Segundo Cuatrimestre</h3>
-                    <p class="noticia-resumen">Las actividades academicas del segundo cuatrimestre comenzaran el proximo lunes. Se publicaran los horarios actualizados.</p>
+                    <p class="noticia-resumen">Las actividades academicas del segundo cuatrimestre comenzaran el
+                        proximo lunes. Se publicaran los horarios actualizados.</p>
                 </div>
                 <div class="noticia-card">
                     <span class="noticia-fecha">15 de julio de 2026</span>
                     <h3 class="noticia-titulo">Feria de Ciencias 2026</h3>
-                    <p class="noticia-resumen">Se encuentra abierta la inscripcion para participar de la Feria de Ciencias anual. Los proyectos podran presentarse hasta el 30 de julio.</p>
+                    <p class="noticia-resumen">Se encuentra abierta la inscripcion para participar de la Feria de
+                        Ciencias anual. Los proyectos podran presentarse hasta el 30 de julio.</p>
                 </div>
                 <div class="noticia-card">
                     <span class="noticia-fecha">10 de julio de 2026</span>
                     <h3 class="noticia-titulo">Reunion de Padres</h3>
-                    <p class="noticia-resumen">Se convoca a las familias a la reunion informativa sobre el rendimiento academico y los lineamientos del nuevo periodo.</p>
+                    <p class="noticia-resumen">Se convoca a las familias a la reunion informativa sobre el
+                        rendimiento academico y los lineamientos del nuevo periodo.</p>
                 </div>
             </div>
         </section>
@@ -213,9 +235,12 @@
             <div class="footer-col">
                 <h3>Redes Sociales</h3>
                 <div class="footer-redes">
-                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="assets/img/facebook logo.png" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/logo instagram.jfif" alt="Instagram"></a>
-                    <a href="https://www.tiktok.com/" target="_blank"><img src="assets/img/logo tik tok.jfif" alt="Tik Tok"></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img
+                            src="assets/img/facebook logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/logo instagram.jfif"
+                            alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/" target="_blank"><img src="assets/img/logo tik tok.jfif"
+                            alt="Tik Tok"></a>
                 </div>
             </div>
             <div class="footer-col">
@@ -239,5 +264,8 @@
         </div>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
 </html>
